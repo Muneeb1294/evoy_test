@@ -61,13 +61,13 @@ class _AppButtonState extends State<AppButton> {
               width: widget.borderWidth ?? 1),
           backgroundColor: widget.color ?? R.colors.primary,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(widget.borderRadius ?? 4),
+            borderRadius: BorderRadius.circular(widget.borderRadius ?? 10),
           ),
         ),
         child: Padding(
           padding: EdgeInsets.symmetric(
               vertical: widget.textPadding ??
-                  (widget.giveSuffix ?? false ? 10.sp : 14.sp)),
+                  (widget.giveSuffix ?? false ? 10.sp : 12.sp)),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
