@@ -6,5 +6,6 @@ class AppColors {
   final Color black = Colors.black;
   final Color grey2 = const Color(0xFFA5A5A5);
   final Color grey3 = const Color(0xFF343434);
+  final Color grey4 = const Color(0xFF252525);
   final Color primary = const Color(0xFFF12711);
 }

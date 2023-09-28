@@ -32,12 +32,12 @@ class FieldValidator {
     return null;
   }
 
-  static String? validatePasswordMatch(String? value, String? pass2) {
-    if (pass2!.isEmpty) {
-      return "please_re_enter_your_password".L();
+  static String? validateEmailMatch(String? value, String? email) {
+    if (email!.isEmpty) {
+      return "please_enter_your_email".L();
     }
-    if (value != pass2) {
-      return "password_does_not_match".L();
+    if (value != email) {
+      return "email_does_not_match".L();
     }
     return null;
   }
